@@ -13,7 +13,7 @@ jobs:
           which kubectl
 
       - name: Install version 1.23.6 kuebctl
-        uses: azure/setup-kubectl@v2.0
+        uses: azure/setup-kubectl@6025c840858f1afa584a5190a4426c338f59e503
         with:
           version: 'v1.23.6' # default is latest stable
       
